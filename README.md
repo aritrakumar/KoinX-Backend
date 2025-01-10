@@ -63,6 +63,12 @@ The server will run at `http://localhost:3000`.
 
 ---
 
+## **Deployed Link**
+The application is deployed and accessible at:
+[https://koinx-backend-b46l.onrender.com/](https://koinx-backend-b46l.onrender.com/)
+
+---
+
 ## **API Documentation**
 
 ### **1. Get Latest Stats**
@@ -73,7 +79,7 @@ The server will run at `http://localhost:3000`.
 
 #### Example Request:
 ```bash
-GET http://localhost:3000/stats?coin=bitcoin
+GET https://koinx-backend-b46l.onrender.com/stats?coin=bitcoin
 ```
 
 #### Example Response:
@@ -95,7 +101,7 @@ GET http://localhost:3000/stats?coin=bitcoin
 
 #### Example Request:
 ```bash
-GET http://localhost:3000/deviation?coin=bitcoin
+GET https://koinx-backend-b46l.onrender.com/deviation?coin=bitcoin
 ```
 
 #### Example Response:
